@@ -1,0 +1,51 @@
+/** Reset **/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/** Layout Master **/
+body {
+	background: #DAE6D7;
+}
+
+#top {
+	height: 30px;
+	background: #4EB898;
+	color: #fff;
+	padding: 10px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+#btn-menu {
+	font-size: 28px;
+	color: #fff;
+	margin-right: 10px;
+	float: left;
+}
+
+#score {
+	float: right;
+	margin-left: 10px;
+	font-family: tellural, helvetica, arial, sans-serif;
+	font-weight: bold;
+}
+
+#level {
+	float: left;
+	margin-right: 15px;
+}
+
+#points {
+    float: left;
+}
+
+#help {
+	text-align: center;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: asap, arial, sans-serif;
+}
