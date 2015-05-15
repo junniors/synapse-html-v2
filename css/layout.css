@@ -1,7 +1,7 @@
 /** Reset **/
 * {
     padding: 0;
-    margin: 0px;
+    margin: 0;
     border: 0;
 }
 
@@ -9,6 +9,8 @@
 body {
 	background: #DAE6D7;
 }
+
+/** Barra superior **/
 
 #top {
 	height: 30px;
@@ -45,6 +47,7 @@ body {
 	margin-left: 10px;
 	font-family: tellural, helvetica, arial, sans-serif;
 	font-weight: bold;
+	font-size: 22px;
 }
 
 #level {
@@ -56,6 +59,9 @@ body {
     float: left;
 }
 
+.yellow {
+	color: yellow;
+}
 #help {
 	text-align: center;
 	color: #fff;
@@ -64,3 +70,15 @@ body {
 	font-size: 20px;
 	font-family: asap, arial, sans-serif;
 }
+
+/** Menu lateral **/
+.menu {
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	background: grey;
+}
+
+/** Perguntas **/
+
+/** Respostas estão nos arquivos específicos de cada template **/
